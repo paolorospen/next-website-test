@@ -16,7 +16,7 @@ var client = contentful.createClient({
 export default function Home(props) {
   return (
     <main className="w-full min-h-screen">
-      <Nav />
+      {/* <Nav /> */}
       <Hero />
       <News news={props.news} />
       <Menu />
