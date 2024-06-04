@@ -1,5 +1,3 @@
-import Footer from "@/components/Footer";
-import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Menu from "@/components/Menu";
 import News from "@/components/News";
@@ -16,11 +14,8 @@ var client = contentful.createClient({
 export default function Home(props) {
   return (
     <main className="w-full min-h-screen">
-      {/* <Nav /> */}
       <Hero />
       <News news={props.news} />
-      <Menu />
-      <Footer />
     </main>
   );
 }
