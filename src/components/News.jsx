@@ -1,4 +1,4 @@
-// import getNews from "../utils/contentful";
+
 
 export default function News({ news }) {
   console.log(news);
